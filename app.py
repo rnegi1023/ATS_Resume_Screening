@@ -14,7 +14,8 @@ st.set_page_config(
 )
 
 genai.configure(api_key=st.secrets.GOOGLE_API_KEY)
-model = genai.GenerativeModel("gemini-2.0-flash")
+model = genai.GenerativeModel('gemini-3-flash-preview')
+#model = genai.GenerativeModel("gemini-2.0-flash")
 
 # --- Caching helpers ----------------------------------------------------------
 @st.cache_data(show_spinner=False)
@@ -224,3 +225,4 @@ if submit_match:
 
         with tabs[2]:
             _display_match_page(match_text)
+
