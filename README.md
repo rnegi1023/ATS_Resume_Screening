@@ -15,7 +15,7 @@ This is a Streamlit web application for an Applicant Tracking System (ATS) Resum
 1. Clone the repository:
 
 ```
-git clone https://github.com/Aditya190803/Application-Tracking-System.git
+https://github.com/rnegi1023/ATS_Resume_Screening.git
 ```
 
 Install the required dependencies:
@@ -38,3 +38,4 @@ Click on the desired action buttons to perform various analyses.
 - Streamlit
 - pdf2image
 - Google Gemini
+
